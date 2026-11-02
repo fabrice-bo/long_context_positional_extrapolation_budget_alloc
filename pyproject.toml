@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "fabrice-bo-vidgen_jd222"
+name = "fabrice-bo-long_context_positional_extrapolation_budget_alloc"
 version = "0.1.0"
 description = "按给定权重把总额度分配到各项，报告超分配项与利用率"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://fabrice-bo.github.io"
-Repository = "https://github.com/fabrice-bo/vidgen_jd222"
-Issues = "https://github.com/fabrice-bo/vidgen_jd222/issues"
+Repository = "https://github.com/fabrice-bo/long_context_positional_extrapolation_budget_alloc"
+Issues = "https://github.com/fabrice-bo/long_context_positional_extrapolation_budget_alloc/issues"
 
 [project.scripts]
-vidgen_jd222 = "vidgen_jd222:main"
+long_context_positional_extrapolation_budget_alloc = "long_context_positional_extrapolation_budget_alloc:main"
 
 [tool.setuptools]
-py-modules = ["vidgen_jd222"]
+py-modules = ["long_context_positional_extrapolation_budget_alloc"]

@@ -1,11 +1,11 @@
-# vidgen_jd222
+# long_context_positional_extrapolation_budget_alloc
 
 **按权重把文生视频工程师·长上下文的位置编码外推的额度分配到各项。**
 
-`vidgen_jd222` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
+`long_context_positional_extrapolation_budget_alloc` —— 按给定权重把总额度分配到各项，报告超分配项与利用率
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`vidgen_jd222.py` 拷走就能用
+- 单文件，`long_context_positional_extrapolation_budget_alloc.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install fabrice-bo-vidgen_jd222
+pip install fabrice-bo-long_context_positional_extrapolation_budget_alloc
 ```
 
 装完直接用命令名调用：
 
 ```bash
-vidgen_jd222 --help
+long_context_positional_extrapolation_budget_alloc --help
 ```
 
-也可以不用安装，直接把 `vidgen_jd222.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `long_context_positional_extrapolation_budget_alloc.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ vidgen_jd222 --help
 ## 用法
 
 ```bash
-python vidgen_jd222.py --file input.txt
-python vidgen_jd222.py --text "示例内容"
-python vidgen_jd222.py --file input.txt --json
+python long_context_positional_extrapolation_budget_alloc.py --file input.txt
+python long_context_positional_extrapolation_budget_alloc.py --text "示例内容"
+python long_context_positional_extrapolation_budget_alloc.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python vidgen_jd222.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_vidgen_jd222.py
+python test_long_context_positional_extrapolation_budget_alloc.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_vidgen_jd222.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/fabrice-bo/vidgen_jd222>
+- GitHub 仓库：<https://github.com/fabrice-bo/long_context_positional_extrapolation_budget_alloc>
 
 ---
 
@@ -79,7 +79,7 @@ python test_vidgen_jd222.py
 fabrice-bo 做文生视频工程师·长上下文的位置编码外推相关的问题，方向对标京东的专家文生视频工程师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://fabrice-bo.github.io>
-- 仓库：<https://github.com/fabrice-bo/vidgen_jd222>
+- 仓库：<https://github.com/fabrice-bo/long_context_positional_extrapolation_budget_alloc>
 
 ## 许可
 
